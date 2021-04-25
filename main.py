@@ -9,7 +9,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # starting logging procedure
-logging.basicConfig(filename = 'main.log', filemode = 'w', format='%(asctime)s - %(message)s', level=logging.INFO)
+logging.basicConfig(filename = 'main.log', filemode = 'a', format='%(asctime)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger()
 
 # Google Sheets API authorization
