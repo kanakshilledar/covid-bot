@@ -55,7 +55,7 @@ def mailer(name, contact, requirement, location, email, link):
     Note: This is an auto generated email so please dont reply to this email. We can't guarantee you help but will try our best.
     Thank You for using our service
     Get Well Soon!
-    Team Covid Bot
+    Team CovidBot
     '''
 
     # setup MIME
