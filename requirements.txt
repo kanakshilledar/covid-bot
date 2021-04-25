@@ -1,0 +1,8 @@
+gspread
+oAuth2Client
+tweepy
+time
+logging
+pywhatkit
+smtplib
+email
