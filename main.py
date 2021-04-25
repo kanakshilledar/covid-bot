@@ -82,7 +82,8 @@ def mailer(name, contact, requirement, location, email, link):
 def tweeter(name, requirement, location):
     message = '''Name: {}
     Requirement: {}
-    Location: {}'''
+    Location: {}
+    #COVIDEmergency2021 #covid19 India #covid19helperbot'''
     api.update_status(message.format(name, requirement, location))
     logger.info('Tweet Sent')
     logger.info('Getting Tweet ID')
