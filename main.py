@@ -104,14 +104,14 @@ def responseData(response):
     if len(response) != 7:
         print(name, requirement, location)
         tweeter(name, requirement, location)
-        sheet.update('G' + str(i), 'done')
+        sheet.update('G' + str(i), link)
         print('[+] tweeted')
         mailer(name, contact, requirement, location, email, link)
         # waiting 2 seconds
         time.sleep(2)
     
 # Finding Workbook to read from
-sheet = client.open("User Details (Responses)").sheet1
+sheet = client.open("YOUR WORKSHEET").sheet1
 logger.info('Successfully Opened Responses Worksheet')
 
 # variable to keep check of rows
